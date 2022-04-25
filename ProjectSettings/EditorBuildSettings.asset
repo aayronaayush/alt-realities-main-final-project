@@ -4,7 +4,13 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Bedroom Apocalypse.unity
+    guid: 49e11cb903e0d4a23a3a71b815d5cb59
+  - enabled: 1
+    path: Assets/Scenes/Bedroom.unity
+    guid: 58fa08b81637b0b45b89b426dee38f79
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 435f8bcc664c895419c2d1dc46f79697, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 871ad90ddd6829e42878eeb2fc491ecc, type: 2}
