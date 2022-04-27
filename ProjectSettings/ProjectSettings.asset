@@ -12,8 +12,13 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
+<<<<<<< Updated upstream
   companyName: Group2
   productName: FinalProject
+=======
+  companyName: B2SSAD2
+  productName: 'The Blaze Ordeal '
+>>>>>>> Stashed changes
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -134,7 +139,11 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
+<<<<<<< Updated upstream
   bundleVersion: 0.1
+=======
+  bundleVersion: 0.2
+>>>>>>> Stashed changes
   preloadedAssets:
   - {fileID: 0}
   - {fileID: 0}
@@ -142,6 +151,7 @@ PlayerSettings:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+<<<<<<< Updated upstream
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
@@ -173,6 +183,8 @@ PlayerSettings:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+=======
+>>>>>>> Stashed changes
   - {fileID: 11400000, guid: 435f8bcc664c895419c2d1dc46f79697, type: 2}
   - {fileID: 0}
   - {fileID: 1263642040990395322, guid: 871ad90ddd6829e42878eeb2fc491ecc, type: 2}
@@ -193,7 +205,11 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
+<<<<<<< Updated upstream
     Android: com.Group2.FinalProject
+=======
+    Android: com.B2SSAD2.TheBlazeOrdeal
+>>>>>>> Stashed changes
   buildNumber:
     Standalone: 0
     iPhone: 0
@@ -626,7 +642,9 @@ PlayerSettings:
   switchPlayerConnectionEnabled: 1
   switchUseNewStyleFilepaths: 0
   switchUseMicroSleepForYield: 1
+  switchEnableRamDiskSupport: 0
   switchMicroSleepForYieldTime: 25
+  switchRamDiskSpaceSize: 12
   ps4NPAgeRating: 12
   ps4NPTitleSecret: 
   ps4NPTrophyPackPath: 
