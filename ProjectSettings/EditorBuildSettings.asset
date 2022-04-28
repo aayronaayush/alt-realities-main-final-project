@@ -6,12 +6,14 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-
     path: Assets/Scenes/XR.unity
     guid: 3987b9467ae2c4a9ba7a39ffdc689cff
   - enabled: 1
     path: Assets/Scenes/Bedroom Apocalypse.unity
     guid: 49e11cb903e0d4a23a3a71b815d5cb59
+  - enabled: 0
+    path: Assets/Scenes/Desert.unity
+    guid: 50a12ddbff4e74b179d7cf06328b08c8
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 435f8bcc664c895419c2d1dc46f79697, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 871ad90ddd6829e42878eeb2fc491ecc, type: 2}

@@ -1,6 +1,7 @@
 // ClickToMove.cs
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.InputSystem;
 
 public class ClickToMove : MonoBehaviour
 {
@@ -14,9 +15,9 @@ public class ClickToMove : MonoBehaviour
     {
         if (!allowClickToMove) return;
 
-        if (Input.GetMouseButtonDown(0))
+        if (Mouse.current.leftButton.isPressed)
         {
-            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            Ray ray = Camera.main.ScreenPointToRay(Mouse.current.position.ReadValue());
             if (Physics.Raycast(ray.origin, ray.direction, out hitInfo))
             {
                 agent.SetDestination(hitInfo.point);
