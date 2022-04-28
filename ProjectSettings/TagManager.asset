@@ -18,6 +18,8 @@ TagManager:
   - Interactable Right
   - Interactable
   - Teleport
+  - Player
+  - PlayerTrigger
   - 
   - 
   - 
