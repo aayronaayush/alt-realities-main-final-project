@@ -6,6 +6,7 @@ TagManager:
   tags:
   - XROriginOrigin
   - XROrigin
+  - vanguard
   layers:
   - Default
   - TransparentFX
@@ -15,8 +16,8 @@ TagManager:
   - UI
   - Interactable Left
   - Interactable Right
-  - 
-  - 
+  - Interactable
+  - Teleport
   - 
   - 
   - 

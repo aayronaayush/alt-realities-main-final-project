@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class VanguardController : MonoBehaviour
 {
@@ -25,9 +26,9 @@ public class VanguardController : MonoBehaviour
 	{
 		Vector3 velocity = agent.velocity;
 
-		bool isMoving = velocity.magnitude > 0.01f && agent.remainingDistance > agent.radius;
+		bool isFlying = velocity.magnitude > 0.01f && agent.remainingDistance > agent.radius;
 
-		animator.SetBool(isFlyingHash, isMoving);
+		animator.SetBool(isFlyingHash, isFlying);
 
 		velocity = transform.InverseTransformVector(velocity);
 		//		transform.position += transform.forward * Time.deltaTime;
@@ -35,4 +36,4 @@ public class VanguardController : MonoBehaviour
 		animator.SetFloat(velocityZHash, velocity.z);
 	}
 }
-}
+
