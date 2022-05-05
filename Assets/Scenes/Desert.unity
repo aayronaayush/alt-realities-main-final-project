@@ -2483,7 +2483,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 827fdb177f46c4b22a38f2fe26ce440e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delayBeforeLoading: 5
+  delayBeforeLoading: 20
 --- !u!4 &687990078
 Transform:
   m_ObjectHideFlags: 0
@@ -4837,11 +4837,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1846142067133063850, guid: f139b658109a943b58a6f40fd5fa0f8e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.708
+      value: 76.4
       objectReference: {fileID: 0}
     - target: {fileID: 1846142067133063850, guid: f139b658109a943b58a6f40fd5fa0f8e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.453
+      value: -109.3
       objectReference: {fileID: 0}
     - target: {fileID: 1846142067133063850, guid: f139b658109a943b58a6f40fd5fa0f8e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4878,6 +4878,10 @@ PrefabInstance:
     - target: {fileID: 4767486779824805589, guid: f139b658109a943b58a6f40fd5fa0f8e, type: 3}
       propertyPath: m_Name
       value: Reticle
+      objectReference: {fileID: 0}
+    - target: {fileID: 4767486779824805589, guid: f139b658109a943b58a6f40fd5fa0f8e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f139b658109a943b58a6f40fd5fa0f8e, type: 3}
