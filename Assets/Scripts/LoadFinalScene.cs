@@ -23,8 +23,11 @@ public class LoadFinalScene : MonoBehaviour
         }
         if (timeElapsed > delayBeforeLoading)
         {
+            //Vector3 newScale = new Vector3(0.207f, 0, 0.205f);
+            //float speed = 2.0f;
 
             XRSceneTransitionManager.Instance.TransitionTo(sceneNameToLoad);
+            //gameObject.transform.localScale = Vector3.Lerp(transform.localScale, newScale, speed * Time.deltaTime);
             gameObject.transform.localScale += new Vector3(0.007f, 0, 0.005f);
         }
     }
