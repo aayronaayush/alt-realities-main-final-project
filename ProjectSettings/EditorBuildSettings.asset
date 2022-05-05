@@ -11,7 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Bedroom Apocalypse.unity
     guid: 49e11cb903e0d4a23a3a71b815d5cb59
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Desert.unity
     guid: 50a12ddbff4e74b179d7cf06328b08c8
   - enabled: 1
