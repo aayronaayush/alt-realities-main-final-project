@@ -12,8 +12,8 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: AR MVP Ordeal
-  productName: B2SSAD2
+  companyName: B2SSAD2
+  productName: AR MVP Ordeal
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -134,7 +134,7 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  bundleVersion: 1.0
+  bundleVersion: 2.0
   preloadedAssets:
   - {fileID: 0}
   - {fileID: 0}
@@ -151,9 +151,9 @@ PlayerSettings:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  - {fileID: 11400000, guid: 435f8bcc664c895419c2d1dc46f79697, type: 2}
   - {fileID: 0}
-  - {fileID: 1263642040990395322, guid: 871ad90ddd6829e42878eeb2fc491ecc, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -171,7 +171,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.ARMVPOrdeal.B2SSAD2
+    Android: com.B2SSAD2.ARMVPOrdeal
     Standalone: com.ARMVPOrdeal.B2SSAD2
   buildNumber:
     Standalone: 0
