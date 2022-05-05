@@ -2,6 +2,8 @@
 using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
+using System.Linq;
 
 public class ClickToMove : MonoBehaviour
 {
@@ -17,7 +19,8 @@ public class ClickToMove : MonoBehaviour
 
         if (Mouse.current.leftButton.isPressed)
         {
-            Ray ray = Camera.main.ScreenPointToRay(Mouse.current.position.ReadValue());
+            GameObject checkpoint_test = this.FindCheckpoint();
+            Ray ray = Camera.main.ScreenPointToRay(checkpoint_test.transform.position);
             if (Physics.Raycast(ray.origin, ray.direction, out hitInfo))
             {
                 agent.SetDestination(hitInfo.point);
@@ -33,5 +36,19 @@ public class ClickToMove : MonoBehaviour
     public void EnableClickToMove()
     {
         allowClickToMove = true;
+    }
+
+    public GameObject FindCheckpoint( )
+    {
+
+        GameObject[] newSceneObjects = SceneManager.GetActiveScene().GetRootGameObjects();
+
+        GameObject checkpointObject = newSceneObjects.First((obj) =>
+        {
+            return obj.CompareTag("BotCheckpoint");
+        });
+
+        return checkpointObject;
+
     }
 }
