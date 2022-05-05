@@ -5,10 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/XR.unity
     guid: 3987b9467ae2c4a9ba7a39ffdc689cff
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Bedroom Apocalypse.unity
     guid: 49e11cb903e0d4a23a3a71b815d5cb59
   - enabled: 1
