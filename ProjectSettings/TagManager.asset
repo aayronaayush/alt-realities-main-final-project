@@ -3,18 +3,23 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - XROriginOrigin
+  - XROrigin
+  - vanguard
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - XR Persistent
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
+  - Interactable Left
+  - Interactable Right
+  - Interactable
+  - Teleport
+  - Player
+  - PlayerTrigger
   - 
   - 
   - 
