@@ -7,7 +7,7 @@ public class LoadFinalScene : MonoBehaviour
     
    
     [SerializeField]
-    private float delayBeforeLoading = 10.0f;
+    private float delayBeforeLoading = 5.0f;
     private string sceneNameToLoad = "Final";
     private string toScene = "XR";
     private float timeElapsed;

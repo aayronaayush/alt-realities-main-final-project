@@ -11,7 +11,7 @@ public static class SceneSelector
     [MenuItem("Scenes/BedroomApocalypse")]
     static void OpenBedroomApocalypse()
     {
-        Load("Bedroom Apocalypse");
+        Load("BedroomApocalypse");
     }
     [MenuItem("Scenes/Desert")]
     static void OpenDesert()
