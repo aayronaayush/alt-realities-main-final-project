@@ -17,25 +17,14 @@ public class ClickToMove : MonoBehaviour
     {
         if (!allowClickToMove) return;
 
-        if (Mouse.current.leftButton.isPressed)
-        {
+         
             GameObject checkpoint_test = this.FindCheckpoint();
             Ray ray = Camera.main.ScreenPointToRay(checkpoint_test.transform.position);
             if (Physics.Raycast(ray.origin, ray.direction, out hitInfo))
             {
                 agent.SetDestination(hitInfo.point);
             }
-        }
-    }
-
-    public void DisableClickToMove()
-    {
-        allowClickToMove = false;
-    }
-
-    public void EnableClickToMove()
-    {
-        allowClickToMove = true;
+        
     }
 
     public GameObject FindCheckpoint( )
