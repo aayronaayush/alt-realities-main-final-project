@@ -15,15 +15,15 @@ public class ClickToMove : MonoBehaviour
 
     void Update()
     {
-        if (!allowClickToMove) return;
-
          
             GameObject checkpoint_test = this.FindCheckpoint();
-            Ray ray = Camera.main.ScreenPointToRay(checkpoint_test.transform.position);
-            if (Physics.Raycast(ray.origin, ray.direction, out hitInfo))
-            {
-                agent.SetDestination(hitInfo.point);
-            }
+            agent.SetDestination(checkpoint_test.transform.position);
+
+            //Ray ray = Camera.main.ScreenPointToRay(checkpoint_test.transform.position);
+            //if (Physics.Raycast(ray.origin, ray.direction, out hitInfo))
+            //{
+            //    agent.SetDestination(hitInfo.point);
+            //}
         
     }
 

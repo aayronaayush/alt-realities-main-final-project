@@ -16,8 +16,10 @@ public class LoadDesert : MonoBehaviour
         
     }
 
-    private void OnTriggerEnter(Collider other)
+    public void OnTriggerEnter()
     {
         XRSceneTransitionManager.Instance.TransitionTo("Desert");
     }
+   
+
 }
