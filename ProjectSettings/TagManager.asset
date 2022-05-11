@@ -8,6 +8,10 @@ TagManager:
   - XROrigin
   - vanguard
   - BotCheckpoint
+  - checkPoint1
+  - checkPoint2
+  - checkPoint3
+  - checkPoint4
   layers:
   - Default
   - TransparentFX
