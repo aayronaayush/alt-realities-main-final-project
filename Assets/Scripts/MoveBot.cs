@@ -5,17 +5,15 @@ using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 using System.Linq;
 
-public class ClickToMove : MonoBehaviour
+public class MoveBot : MonoBehaviour
 {
     public NavMeshAgent agent;
 
     RaycastHit hitInfo = new RaycastHit();
 
-    public bool allowClickToMove = true;
-
     void Update()
     {
-         
+
             GameObject checkpoint_test = this.FindCheckpoint();
             agent.SetDestination(checkpoint_test.transform.position);
 
@@ -24,7 +22,7 @@ public class ClickToMove : MonoBehaviour
             //{
             //    agent.SetDestination(hitInfo.point);
             //}
-        
+
     }
 
     public GameObject FindCheckpoint( )
