@@ -9,13 +9,16 @@ using Unity.XR.CoreUtils;
 public class ZipLineScript : MonoBehaviour
 {
     public Transform finish;
-    public float speed = 0.015f;
+    public float speed = 0.005f;
     public float fallSpeed = 1.0f;
+    public AudioSource source;
+    public AudioClip clip;
 
     private XROrigin origin;
     private Vector3 start;
     private float lerping = 0;
     private Coroutine zipline;
+    
 
     private void Start()
     {
@@ -35,13 +38,19 @@ public class ZipLineScript : MonoBehaviour
     {
         StopCoroutine(zipline);
         StartCoroutine(Fall());
+        
+
+
     }
     IEnumerator Fall()
     {
-
+        //if (!source.isPlaying)
+        //{
+        //    source.Play();
+        //}
         Vector3 fall = origin.transform.position;
         fall.y -= 20.0f;
-        while (!Mathf.Approximately(origin.transform.position.y, fall.y+2))
+        while (!Mathf.Approximately(origin.transform.position.y, fall.y))
         {
             lerping = Mathf.MoveTowards(lerping, 1.0f, fallSpeed * Time.deltaTime);
             origin.transform.position = Vector3.Lerp(start, fall, lerping);
