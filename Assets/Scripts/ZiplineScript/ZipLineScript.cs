@@ -9,7 +9,7 @@ using Unity.XR.CoreUtils;
 public class ZipLineScript : MonoBehaviour
 {
     public Transform finish;
-    public float speed = 0.005f;
+    public float speed = 0.0005f;
     public float fallSpeed = 1.0f;
     public AudioSource source;
     public AudioClip clip;
@@ -69,6 +69,12 @@ public class ZipLineScript : MonoBehaviour
             origin.transform.position = Vector3.Lerp(start, finish.transform.position, lerping);
             yield return null;
         }
+
+        if (Mathf.Approximately(Vector3.Distance(origin.transform.position, finish.transform.position), 0))
+        {
+            XRSceneTransitionManager.Instance.TransitionTo("Bedroom");
+        }
+        
     }
 
 }
