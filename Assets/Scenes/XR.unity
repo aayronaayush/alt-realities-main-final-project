@@ -576,7 +576,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   transitionMaterial: {fileID: 2100000, guid: bb086e00bbfb9f943aaf4ed5e9d20899, type: 2}
   transitionSpeed: 1
-  initialScene: BedroomApocalypse
+  initialScene: Lobby
 --- !u!1 &1401860867
 GameObject:
   m_ObjectHideFlags: 0
@@ -1295,8 +1295,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1759548381}
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -9.0111, y: 3.499, z: 20.1623}
+  m_LocalRotation: {x: -0, y: 0.34965122, z: -0, w: 0.93687993}
+  m_LocalPosition: {x: -0.739, y: 0.453, z: -0.519}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 762082133}
