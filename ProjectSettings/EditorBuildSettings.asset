@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/XR.unity
     guid: 3987b9467ae2c4a9ba7a39ffdc689cff
   - enabled: 1
+    path: Assets/Scenes/Lobby.unity
+    guid: 2e28075a392a545f38ecae3eb943cd28
+  - enabled: 1
     path: Assets/Scenes/BedroomApocalypse.unity
     guid: 1ba35d7b3717f3f4c8fd1428feac99c6
   - enabled: 1
