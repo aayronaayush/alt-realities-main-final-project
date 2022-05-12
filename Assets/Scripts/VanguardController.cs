@@ -34,6 +34,7 @@ public class VanguardController : MonoBehaviour
 		//		transform.position += transform.forward * Time.deltaTime;
 		animator.SetFloat(velocityXHash, velocity.x);
 		animator.SetFloat(velocityZHash, velocity.z);
+
 	}
 }
 
