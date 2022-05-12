@@ -120,15 +120,15 @@ public class MoveBot : MonoBehaviour
         if (other.gameObject.tag == "checkPoint1")
         {
             PlayerPrefsV.SetBool("checkPoint1Complete", true);
-            robot1.Play(0);
+            //robot1.Play(0);
             Debug.Log("started");
-            player1.Play(0);
+            //player1.Play(0);
             Debug.Log("started");
-            robot2.Play(0);
+            //robot2.Play(0);
             Debug.Log("started");
-            player2.Play(0);
+            //player2.Play(0);
             Debug.Log("started");
-            robot3.Play(0);
+            //robot3.Play(0);
             Debug.Log("started");
         }
         else if (other.gameObject.tag == "checkPoint2")
