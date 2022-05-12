@@ -11,8 +11,9 @@ public class ZipLineScript : MonoBehaviour
     public Transform finish;
     public float speed = 0.0005f;
     public float fallSpeed = 1.0f;
-    public AudioSource source;
     public AudioClip clip;
+
+    public AudioSource smashSound;
 
     private XROrigin origin;
     private Vector3 start;
@@ -23,6 +24,7 @@ public class ZipLineScript : MonoBehaviour
     private void Start()
     {
         origin = FindObjectOfType<XROrigin>();
+        smashSound = FindObjectOfType<AudioSource>();
     }
 
     public void Zipline_Activate()
@@ -72,6 +74,8 @@ public class ZipLineScript : MonoBehaviour
 
         if (Mathf.Approximately(Vector3.Distance(origin.transform.position, finish.transform.position), 0))
         {
+            smashSound.Play();
+            yield return new WaitForSeconds(smashSound.clip.length);
             XRSceneTransitionManager.Instance.TransitionTo("Bedroom");
         }
         
