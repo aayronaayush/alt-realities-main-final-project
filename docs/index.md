@@ -25,7 +25,20 @@ Checked all the scenes were correctly connected and had a smooth transition, fix
 
 ![Screenshot](./assets/Sashank_Screenshot/pic1.png)
 
+Yahia
+In this project, my main role is to set the outside scene in which most of the activities of our game will take place. I built the scene using some assets online and many changes of my own. I then set the sky to be very cloudy to enhance the mood of mystery and post-apocalyptic scenes. I implemented a dusty wind effect in the scene to give a sense of isolation and to make it really feel like a desert.
+![Screenshot](./assets/desert_empty.png)
+![Screenshot](./assets/dust_particles.png)
+I added a robot character that guides the user. Initially, I implemented some animations for it such as flying, turning to the sides, and moving backwards. I programmed it so that it dances when it reaches a certain house in the desert. I was not able to find actual flying animations so I tried using crawling motion instead. However, after testing it out it looked very awkward so I decided to make it walk instead.
+![Screenshot](./assets/desert_robot.png)
+I finalize the worldbuilding by adding proper teleportation planes all across the terrain and by ensuring all the game objects are of reasonable scale and exist in locations which make sense. This took all of time to test and to fit in the story we were trying to tell.
+![Screenshot](./assets/desert_bridge_side.png)
+![Screenshot](./assets/desert_shop.png)
+![Screenshot](./assets/teleport_above.png)
+I also worked with Sashank on making the transitions between the scenes work properly by debugging several errors that have to do with the XR Origin and making an automatic transition to the bedroom scene after a certain amount of time has passed.
 
+I also recorded the audio clips of dialogue between the robot and the player wearing the headset where the robot introduces itself and reassures the player that it is only there to help him survive, and instructs him to fetch a gun and then head to the zipline. I added a chair to the abandoned shop in hopes that our group would be able to implement a fighting interaction between the player and some robots, where an interactable gun should be on the chair and the player should find it and then use it overcome these robots so he can reach the zipline.
+![Screenshot](./assets/chair.png)
 ## Codes
 
 **Code for Zip Line**
