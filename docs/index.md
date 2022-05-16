@@ -27,7 +27,7 @@ Checked all the scenes were correctly connected and had a smooth transition, fix
 
 Yahia
 In this project, my main role is to set the outside scene in which most of the activities of our game will take place. I built the scene using some assets online and many changes of my own. I then set the sky to be very cloudy to enhance the mood of mystery and post-apocalyptic scenes. I implemented a dusty wind effect in the scene to give a sense of isolation and to make it really feel like a desert.
-![Screenshot](./assets/desert_empty.png)
+(./assets/desert_empty.png)
 ![Screenshot](./assets/dust_particles.png)
 I added a robot character that guides the user. Initially, I implemented some animations for it such as flying, turning to the sides, and moving backwards. I programmed it so that it dances when it reaches a certain house in the desert. I was not able to find actual flying animations so I tried using crawling motion instead. However, after testing it out it looked very awkward so I decided to make it walk instead.
 ![Screenshot](./assets/desert_robot.png)
