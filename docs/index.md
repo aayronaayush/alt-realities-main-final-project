@@ -10,7 +10,7 @@ The story is about a teenager who goes to sleep and dreams [or has a nightmare] 
 
 ## Process
 
-Sashank 
+**Sashank**
 
 I started working on the teenage bedroom scene added the elements to give it a look of a teenages bedroom like action figures, posters etc. I added teleportation in the teenager's bedroom and added the XR Scene. And also linked the separate XR scene to each of our scenes.Additionally,  I worked on finalizing the transition to the video scene (final scene). 
 
@@ -38,7 +38,23 @@ I finalize the worldbuilding by adding proper teleportation planes all across th
 I also worked with Sashank on making the transitions between the scenes work properly by debugging several errors that have to do with the XR Origin and making an automatic transition to the bedroom scene after a certain amount of time has passed.
 
 I also recorded the audio clips of dialogue between the robot and the player wearing the headset where the robot introduces itself and reassures the player that it is only there to help him survive, and instructs him to fetch a gun and then head to the zipline. I added a chair to the abandoned shop in hopes that our group would be able to implement a fighting interaction between the player and some robots, where an interactable gun should be on the chair and the player should find it and then use it overcome these robots so he can reach the zipline.
+
 ![Chair](./Assets/chair.png)
+
+**Aayush**
+
+First week: I helped setup the unity project and hosted it in a our github repository. After initializing the unity project and the github repo, I setup the XR Origin. At the moment I am working on setting up the different scenes with whiteboxes that we can come back to later to add details. 
+
+Second Week: I added material to the initial scenes.
+ 
+I had intro sound and on load trigger to automatically play this sound, this serves as an introduction to the experience as well as the instructions for the next steps.
+
+I implemented an NPC which stopped just before the demo. I was also planning on having a shooting game at the base of the bridge, which we had remove because the shooting mechanism stopped working. 
+
+
+
+
+
 ## Codes
 
 **Code for Zip Line**
